@@ -19,7 +19,7 @@ export function mountAdminShell(title, actionHtml = "") {
         <button data-theme-btn="light">Light</button>
         <button data-theme-btn="dark">Dark</button>
       </div>
-      <a href="../dashboard.html" class="pill pill-ghost">Student view</a>
+      <a href="../../dashboard.html" class="pill pill-ghost">Student view</a>
       ${actionHtml}
     </div>`;
   mountThemeToggle();
